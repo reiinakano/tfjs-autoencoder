@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "license": "",
     "dependencies": {
-      "@tensorflow/tfjs": "~0.9.0",
+      "@tensorflow/tfjs": "~0.10.0",
       "babel-polyfill": "~6.26.0",
       "milligram": "^1.3.0"
     },
@@ -43,4 +43,3 @@
       "uglify-js": "^3.3.17"
     }
   }
-  
