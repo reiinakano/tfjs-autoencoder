@@ -10,6 +10,12 @@ class Main {
    */
   constructor() {
     // Initiate variables
+    this.originalImg = document.getElementById('original-img');
+    this.noisyImg = document.getElementById('noisy-img');
+    this.restoredImg = document.getElementById('restored-img');
+    this.newDigit = document.getElementById('new-digit');
+    this.newNoise = document.getElementById('new-noise');
+    this.fixImg = document.getElementById('fix-img');
 
     tf.loadModel('model/model.json').then((model) => {
       this.model = model;
