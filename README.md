@@ -1,4 +1,4 @@
-This repository contains a demo written with TensorFlow.js that shows a neural network removing noise from handwritten digits. A denoising autoencoder [written in Keras](https://github.com/keras-team/keras/blob/master/examples/mnist_denoising_autoencoder.py) is trained on to remove noise from MNIST digits. The Keras model is then ported to TensorFlow.js.
+This repository contains a demo written with TensorFlow.js that shows a neural network removing noise from handwritten digits. A denoising autoencoder [written in Keras](https://github.com/keras-team/keras/blob/master/examples/mnist_denoising_autoencoder.py) is trained to remove noise from MNIST digits. The Keras model is then ported to TensorFlow.js.
 
 You can run it immediately in your browser by going to https://reiinakano.github.io/tfjs-autoencoder/.
 
