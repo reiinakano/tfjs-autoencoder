@@ -28,15 +28,14 @@ class Main {
 
     tf.loadModel('model/model.json').then((model) => {
       this.model = model;
-      this.enableGeneration();
+      this.initializeTensors();
     });
   }
 
   /**
-   * Called after model has finished loading or generating. 
-   * Sets up UI elements.
+   * Initialize tensors.
    */
-  enableGeneration() {
+  initializeTensors() {
     this.noiseTensor = tf.randomNormal([28, 28, 1], 0, 0.5);
     this.updateInputTensor();
   }
