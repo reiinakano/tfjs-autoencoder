@@ -41,7 +41,6 @@ class Main {
   }
 
   updateInputTensor() {
-    // TODO: Don't load this in immediately. Add it with noise.
     let randInt = Math.floor(Math.random() * 1002);
     let temp = new Image();
     temp.src = 'test_digits/' + randInt + '.png';
